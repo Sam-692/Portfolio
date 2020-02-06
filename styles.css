@@ -2,7 +2,8 @@
     color: blue; 
     text-align: center; 
     font-family: 'Pacifico', cursive; 
-    font-size: 100px; 
+    font-size: 50px; 
+    text-underline-position: below;
 }
 #myportfolio{
     /* background-color: #f1f1f1; */
@@ -32,11 +33,19 @@
     display: flex;
     width: 1370px;
 }
+header{
+    max-width: 1200px;
+    margin:20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
 #aboutsam{
     text-align: center;
     font-size: 50px;
     border: 7px solid blue;
-    /* padding: 12px; */
+    padding: 12px;
     background-color: #f1f1f1;
 }
 #bt{
@@ -57,11 +66,31 @@ th,td{
     border: 7px solid blue; 
     padding: 15px;
 }
-#navbar{
-    list-style-type: none;
-    margin: 100px;
-    padding: 10px;
+.navbar{
+    
+    margin: 20px;
+    padding: 10px 10px;
     text-align: center;
     background-color: #f1f1f1;
     font-size: 40px;
+    border:3px solid white;
+    text-decoration: none;
+    position: fixed;
+    
+  }
+  nav ul li{
+    list-style: none;
+    
+  }
+  nav ul li a{
+      display: block;
+      padding: 10px 20px;
+      margin: 10px 0px;
+      text-decoration: none;
+  }
+  nav{
+    float: right;
+  }
+  footer{
+      background-color: turquoise;
   }
