@@ -40,3 +40,14 @@
     font-size: 30px;
     width:500px;
 }
+table{
+    font-weight: bold;
+    display: block;
+
+}
+th,td{ 
+    width: 150px; 
+    text-align: center; 
+    border: 7px solid blue; 
+    padding: 15px;
+}
