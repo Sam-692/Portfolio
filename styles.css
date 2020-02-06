@@ -10,6 +10,7 @@
     position: fixed;
     width: 1700px;
     height: 250px;
+    font-family: 'Jim Nightshade', cursive;
 } 
 #home{ 
     text-align: center; 
@@ -22,6 +23,7 @@
     height: 100px; 
     background-repeat: no-repeat; 
     background-size: 100%; 
+    font-family: 'Lobster', cursive;
 } 
 #about{ 
     text-align: center; 
@@ -93,4 +95,28 @@ th,td{
   }
   footer{
       background-color: turquoise;
+  }
+  #image{
+      float: right;
+      border:4px solid blue;
+      font-size: 20px;
+      width: 400px;
+      height: 400px;
+      float: left;
+      border-radius: 50%;
+      margin: 10px;
+      shape-outside:;
+      position: relative;
+      overflow: hidden;
+      background-color: burlywood;
+      font-family: 'Lobster', cursive;
+  }
+  section p{
+      position: relative;
+      width: 100%;
+      padding: 10px;
+      font-size: 40px;
+  }
+  body{
+    font-family: 'Lobster', cursive;
   }
