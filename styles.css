@@ -51,3 +51,8 @@ th,td{
     border: 7px solid blue; 
     padding: 15px;
 }
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
