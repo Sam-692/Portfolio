@@ -47,6 +47,8 @@ header{
     border-radius: 4px;
     box-shadow: 0 2px 5px white;
     border-radius: 44px;
+    /* position: fixed;
+    float: right; */
 }
 .name{
     color: white;
@@ -68,6 +70,7 @@ nav{
     font-size: 40px;
     display: fixed;
     border-radius: 44px;
+    /* position: fixed; */
 
 }
 .clearfix{
@@ -195,8 +198,13 @@ th,td{
   body{
     font-family: 'Lobster', cursive;
     /* font-family: 'Jim Nightshade', cursive; */
-    background-image: url(https://bit.ly/2vZag5p);
-    background-repeat: round;
+    /* background-image: url(https://bit.ly/39hxcet); */
+    background-repeat: no-repeat;
+    overflow-y: visible;
+    overflow-x: hidden;
+    background-size: 100% 100%;
+    background-color: grey;
+
 
   }
  #achievements {
