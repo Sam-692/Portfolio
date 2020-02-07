@@ -28,7 +28,7 @@
     font-family: 'Lobster', cursive;
     color: cornsilk ;
 } 
-#about{ 
+#abt{ 
     text-align: center; 
     width: 700px;
     background-color: #f1f1f1;
@@ -44,7 +44,87 @@ header{
     padding: 10px;
     box-sizing: border-box;
     border-radius: 4px;
-    color: cornsilk;
+    box-shadow: 0 2px 5px black;
+}
+.name{
+    color: blue;
+    height: 70px;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    float:left;
+    text-decoration: none;
+    margin-top: 10px;
+}
+nav{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+nav ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: green;
+    text-decoration: none;
+}
+nav ul li a.active,nav ul li a:hover{
+    background-color: blue;
+    color: hotpink;
+    transition: 0.5s;
+}
+@media(max-width:1200px){
+    header{
+        margin:20px;
+    }
+}
+@media(max-width:768px){
+    .menu-toggle{
+        display:block;
+        height: 40px;
+        width: 40px;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: lawngreen;
+        
+    }
+    .menu-toggle:before{
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    .menu-toggle.active:before{
+        content:'\f00d';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    nav{
+        display:none;
+    }
+    nav.active{
+        display: block;
+        width: 100%;
+    }
+    nav.active ul{
+        display: block;
+    }
+    nav.active ul li a{
+        margin: 0;
+    }
 }
 #aboutsam{
     text-align: center;
@@ -138,4 +218,7 @@ th,td{
      border: 7px solid blue;
      padding: 3px;
      background-color: #f1f1f1;
+ }
+ header{
+     
  }

@@ -12,15 +12,29 @@
   </div>
 <header>
   <a href="#" class="name">Samuel<br> kariuki</a>
+  <div class="menu-toggle"></div>
   <nav>
     <ul>
       <li><a href="#home" class="active">Home</a></li>
       <li><a href="#about">About Sam</a></li>
-      <li><a href="#achievement">Achievements</a></li>
-      <li><a href="#contact">Contacts</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contacts">Contacts</a></li>
     </ul>
   </nav>
+  <div class="clearfix"></div>
 </header>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.menu-toggle').click(function(){
+      $('.menu-toggle').toggleClass('active')
+      $('nav').toggleClass('active')
+    })
+  })
+  </script>
 <div id="home">
   <h1 id="sam">
      My portfolio
@@ -40,9 +54,10 @@
    </p>
    </section>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="about">
       <h2 id="aboutsam">About Sam</h2>
-      <div id="about">
+      <div id="abt">
         <div id="bt"><p> 
           sam is among those polite gents from the slums. He was born and raised in an estate by the name Huruma Estate,where he underwent both primary and secondary school in Ndururuno and Huruma secondary school, It was a life full of struggle but by the well of people he managed to finish school.After  highschool His desire to do programming made him be noticed and was offered an orpotunity at moringa coding school where he is upto date.
         </p> </div id="bt">
@@ -52,8 +67,10 @@
            He submits his projects on time,always perticipates<br>
             in class and helps where the rest are stuck and more<br>
              so he is a very good team player.
-        </p></div>
+        </p>
       </div>
+      </div>
+</div>      
       <div>
         <h1 id="achievements">
           Achievements
