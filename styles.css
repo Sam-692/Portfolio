@@ -43,7 +43,7 @@ header{
     padding: 10px;
     box-sizing: border-box;
     border-radius: 4px;
-
+    color: cornsilk;
 }
 #aboutsam{
     text-align: center;
@@ -64,6 +64,7 @@ header{
 table{
     font-weight: bold;
     display: block;
+    background-color: #f1f1f1;
 
 }
 th,td{ 
@@ -124,6 +125,7 @@ th,td{
   body{
     font-family: 'Lobster', cursive;
     /* font-family: 'Jim Nightshade', cursive; */
+    background-image: url(https://bit.ly/2vZag5p);
   }
  #achievements {
      text-align: centre;
@@ -144,7 +146,19 @@ th,td{
  #contacts{
      text-align: center;
      font-size: 40px;
-     border: 10px solid blue;
-     margin: 5px;
+     border: 7px solid blue;
+     padding: 3px;
+     background-color: #f1f1f1;
 
+
+ }
+ #no{
+     text-decoration: underline;
+     /* text-decoration: wavy; */
+     text-align: center;
+     font-size: 70px;
+     font-family: 'Jim Nightshade', cursive;
+     border: 7px solid blue;
+     padding: 3px;
+     background-color: #f1f1f1;
  }
