@@ -1,10 +1,11 @@
 #sam{ 
     color: blue; 
     text-align: center; 
-    font-family: 'Pacifico', cursive; 
-    font-size: 50px; 
+    font-family: 'Jim Nightshade', cursive; 
+    font-size: 100px; 
     text-underline-position: below;
     text-decoration: underline;
+    font-weight: 1200;
 }
 #myportfolio{
     /* background-color: #f1f1f1; */
@@ -40,16 +41,16 @@
 }
 header{
     max-width: 1200px;
-    margin:20px auto;
+    margin:50px auto;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 4px;
-    box-shadow: 0 2px 5px black;
+    box-shadow: 0 2px 5px white;
 }
 .name{
-    color: blue;
+    color: white;
     height: 70px;
-    font-size: 30px;
+    font-size: 50px;
     line-height: 30px;
     padding: 0;
     text-align: center;
@@ -57,9 +58,13 @@ header{
     float:left;
     text-decoration: none;
     margin-top: 10px;
+    font-family: 'Jim Nightshade', cursive;
+    font-weight: 1000;
 }
 nav{
     float: right;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 40px;
 }
 .clearfix{
     clear: both;
@@ -76,7 +81,7 @@ nav ul li a{
     display: block;
     padding: 10px 20px;
     margin: 10px 0;
-    color: green;
+    color: white;
     text-decoration: none;
 }
 nav ul li a.active,nav ul li a:hover{
@@ -84,7 +89,7 @@ nav ul li a.active,nav ul li a:hover{
     color: hotpink;
     transition: 0.5s;
 }
-@media(max-width:1200px){
+/* @media(max-width:1200px){
     header{
         margin:20px;
     }
@@ -125,7 +130,7 @@ nav ul li a.active,nav ul li a:hover{
     nav.active ul li a{
         margin: 0;
     }
-}
+} */
 #aboutsam{
     text-align: center;
     font-size: 50px;
@@ -182,6 +187,8 @@ th,td{
     font-family: 'Lobster', cursive;
     /* font-family: 'Jim Nightshade', cursive; */
     background-image: url(https://bit.ly/2vZag5p);
+    background-repeat: round;
+
   }
  #achievements {
      text-align: centre;
