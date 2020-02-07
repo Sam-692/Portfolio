@@ -130,7 +130,7 @@ th,td{
  #achievements {
      text-align: centre;
      font-family: 'Jim Nightshade', cursive;
-     font-size: 30px;
+     font-size: 50px;
      text-align: center;
      /* font-size: 50px; */
      border: 7px solid blue;
@@ -141,7 +141,8 @@ th,td{
  }
  #para{
      text-align: center;
-     font-size: 30px;
+     font-size: 50px;
+     color: cornsilk;
  }
  #contacts{
      text-align: center;
