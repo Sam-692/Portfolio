@@ -11,6 +11,7 @@
     width: 1700px;
     height: 250px;
     font-family: 'Jim Nightshade', cursive;
+    text-decoration: underline;
 } 
 #home{ 
     text-align: center; 
@@ -49,6 +50,8 @@ header{
     border: 7px solid blue;
     padding: 12px;
     background-color: #f1f1f1;
+    font-family: 'Jim Nightshade', cursive;
+    text-decoration: underline;
 }
 #bt{
     border: 7px solid blue;
@@ -119,4 +122,22 @@ th,td{
   }
   body{
     font-family: 'Lobster', cursive;
+    /* font-family: 'Jim Nightshade', cursive; */
   }
+ #achievements {
+     text-align: centre;
+     font-family: 'Jim Nightshade', cursive;
+     font-size: 30px;
+     text-align: center;
+     /* font-size: 50px; */
+     border: 7px solid blue;
+     padding: 3px;
+     background-color: #f1f1f1;
+     font-family: 'Jim Nightshade', cursive;
+     text-decoration: underline;
+ }
+ #para{
+     text-align: center;
+     font-size: 30px;
+
+ }
