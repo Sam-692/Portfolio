@@ -4,6 +4,7 @@
     font-family: 'Pacifico', cursive; 
     font-size: 50px; 
     text-underline-position: below;
+    text-decoration: underline;
 }
 #myportfolio{
     /* background-color: #f1f1f1; */
@@ -139,5 +140,11 @@ th,td{
  #para{
      text-align: center;
      font-size: 30px;
+ }
+ #contacts{
+     text-align: center;
+     font-size: 40px;
+     border: 10px solid blue;
+     margin: 5px;
 
  }
